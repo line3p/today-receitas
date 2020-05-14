@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Today receitas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <a class="navbar-brand fonte-especial" id="titulo-nav" href="#">Today receitas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaques">Destaques</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sabores
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="salgados.html">Salgados</a>
+                            <a class="dropdown-item" href="doces.html">Doces</a>
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+
+    <main class="main-especial">
+        <section id="dicas">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="imagem-carrossel d-block w-100" src="imagens/dicas/alho.jpg" alt="cabeças de alho">
+                        <div class="carousel-caption">
+                            <h2 class="fonte-especial">O alho reduz seu colesterol, protegendo seu coração.</h2>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="imagens/dicas/cebola.jpg"
+                            alt="cebolas amontoadas">
+                        <div class="carousel-caption">
+                            <h2 class="fonte-especial"> Com poderes antioxidantes a cebola melhora a saúde da sua pele.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="imagens/dicas/limao.jpg"
+                            alt="limões amomtoados">
+                        <div class="carousel-caption">
+                            <h2 class="fonte-especial">Com a vitamina C, o limão fortalece seu sistema imunológico.</h2>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="sabores">
+            <div class="container">
+                <h2 class="fonte-especial cor-especial text-center my-5">Escolha seu sabor</h2>
+                <div class="row justify-content-around">
+                    <div class="col-sm-5 col-md-4 col-lg-3 d-flex mb-4 mb-sm-0">
+                        <a class="texto-sem-decoracao" href="salgados.html">
+                            <div class="card div-card-img flex-grow-1">
+                                <img class="card-img-top card-imagem flex-grow-1" src="imagens/opcoes/salgados.jpg"
+                                    alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h4 class="card-title cor-especial titulo-card font-weight-bold">Salgados</h4>
+                                </div>
+                        </a>    
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-lg-3 d-flex">
+                        <a class="texto-sem-decoracao" href="doces.html">
+                            <div class="card div-card-img flex-grow-1">
+                                <img class="card-img-top card-imagem flex-grow-1" src="imagens/opcoes/doces.jpg"
+                                    alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h4 class="card-title cor-especial titulo-card font-weight-bold">Doces</h4>
+                                </div>
+                        </a>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destaques">
+            <div class="container">
+                <h2 class="fonte-especial cor-especial text-center my-5">Nossos destaques</h2>
+                <div class="row justify-content-around">
+                    <div class="col-sm-5 col-lg-3 d-flex">
+                        <div class="card text-center card-especial flex-grow-1 mb-4 mb-sm-0">
+                            <img class="card-img-top card-imagem-destaques" src="imagens/opcoes/receitas/bolo-prestigio.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title cor-especial">Bolo prestígio na panela de pressão elétrica</h5>
+                            </div>
+                            <a href="Receitas/doces/bolo-prestigio.html" class="btn cor-botao rounded-0">Ver receita</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 d-flex">
+                        <div class="card text-center card-especial flex-grow-1 mb-4 mb-sm-0">
+                            <img class="card-img-top card-imagem-destaques" src="imagens/opcoes/receitas/pao-de-alho.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title cor-especial">Pão de Alho na Airfryer</h5>
+                            </div>
+                            <a href="Receitas/salgados/pao-de-alho.html" class="btn cor-botao rounded-0">Ver receita</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-3 d-flex">
+                        <div class="card text-center card-especial flex-grow-1">
+                            <img class="card-img-top card-imagem-destaques" src="imagens/opcoes/receitas/sopa-de-ervilha.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title cor-especial">Sopa de ervilha na panela de pressão elétrica</h5>
+                            </div>
+                            <a href="Receitas/salgados/sopa-de-ervilha.html" class="btn cor-botao rounded-0">Ver receita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p class="text-center mt-5 text-black-50"> © 2020 Today Receitas</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

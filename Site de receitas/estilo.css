@@ -1,0 +1,72 @@
+.fonte-especial{
+    font-family: 'Gochi Hand', cursive;
+}
+
+#titulo-nav{
+    color: #f45905;
+    font-size: 1.50rem;
+}
+
+.cor-especial{
+    color: #f45905 !important;
+}
+
+.cor-botao{
+ background-color: #f45905;
+ color: white;
+}
+
+.cor-botao:hover{
+    color: white;
+    font-weight: bold;
+   }
+
+.imagem-carrossel{
+    object-fit: cover;
+    height: 200px;
+}
+
+.main-especial{
+    margin-top: 56px;
+}
+
+.div-card-img{
+    overflow: hidden;
+}
+.card-imagem{
+    object-fit:cover;
+    height: 350px;
+}
+
+.card-imagem-destaques{
+    object-fit: cover;
+    height: 200px;
+
+}
+
+@media screen and (min-width: 992px){
+    .card-imagem:hover{
+        object-fit:cover;
+        width: 298px;
+    }
+}
+
+.titulo-card{
+    text-align: center;
+}
+
+.texto-sem-decoracao:hover{
+    text-decoration: none;
+}
+
+.card-especial{
+    overflow: hidden;
+}
+
+.imagem-receita{
+    width: 500px;
+}
+
+.lista-informacoes{
+    list-style: none;
+}
